@@ -9,7 +9,7 @@ export default function Navigation() {
   console.log(path);
   return (
     <nav className={style.nav}>
-      <ul className={style.list}>
+      <ul>
         <li>
           <Link href="/">Home</Link> {path === "/" ? "🔥" : ""}
         </li>
