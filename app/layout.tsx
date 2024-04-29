@@ -5,7 +5,7 @@ import Navigation from "../components/navigation"
 export const metadata :Metadata = {
   title: {
     template: "%s | Next Movies",
-    default: "Loading...",
+    default: "Next Movie",
   },
   description: "The best movies on the best framework",
 }
