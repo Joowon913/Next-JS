@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import style from "../styles/navigation.module.css"
 
 export default function Navigation() {
   const path = usePathname();
   console.log(path);
   return (
-    <nav>
-      <ul>
+    <nav className={style.nav}>
+      <ul className={style.list}>
         <li>
           <Link href="/">Home</Link> {path === "/" ? "🔥" : ""}
         </li>
